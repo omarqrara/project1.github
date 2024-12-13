@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.body1{
+filter: brightness(80%);
+background-image: url(assets/img/hero.jpg);
+width: 100vw;
+height: 100vh;
+display: flex;
+align-content:space-around;
+
+}
+
+.upbody {
+
+display: flex;
+justify-content:space-between;
+
+
+}
+nav{
+margin: 25px;
+display: flex;
+flex-direction: row;
+
+
+
+}
+
+
+li{
+color: white;
+text-decoration: none;
+display: inline-block;
+padding: 5px;
+margin: 5px;
+
+}
+li a {
+color: white;
+text-decoration: none;
+}
+.logo{
+
+color: white;
+margin: 25px;
+}
+.down{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+
+}
+h1{
+color: white;
+font-size: 60px;
+padding: 20px;
+}
+h5{
+
+font-size: 30px;
+color: white;
+}
+#btn{
+
+color: white;
+background-color: blue;
+padding: 20px;
+text-decoration: none;
+border-radius: 10px;
+margin-top: 20px;
+
+}
+#btn:hover{
+
+background-color: black;
+}
+.body2{
+
+width: 100vw;
+height: 100vh;
+background-color:white;
+display: flex;
+flex-direction: column;
+padding-bottom:10px ;
+
+
+}
+.header2{
+
+justify-items:center ;
+padding: 20px;
+}
+.header2 p{
+
+padding-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+text-align: center;
+} 
+.header2 hr{
+
+margin-top: 15px;
+} 
+.photo{
+display: grid;
+justify-content: center;
+align-items: center;
+row-gap: 10px;
+margin-top: 20px;
+}
+.img2{
+margin-right: 10px;
+flex-shrink: 1;
+
+
+
+}
+.body3{
+padding-top: 40px;
+padding: 20px;
+width: 100vw;
+height: 70vh;
+background-color: #f2f2f2;
+
+
+}
+.colo
+{   
+column-count: 3;
+column-gap: 40px;
+position: relative;
+top: 150px;
+padding: 30px;
+
+
+}
+header{
+display: inline;
+text-align: center;
+padding-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+text-align: center;
+}
+
+.colo h4,p{
+
+text-align: center;
+
+}
+
+#hr3{
+position: relative;
+left: 700px;
+
+
+
+}
+.newsletter {
+width: 100vw;
+height: 50vh;
+display: flex;
+align-items: center;  
+flex-direction: column;
+justify-content: center;
+
+background-color: #f2f2f2;
+text-align: center;
+
+}
+
+.newsletter input {
+padding: 15px;
+font-size: 1em;
+width: 300px;
+max-width: 90%;
+margin-right: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin: 10px;
+}
+#button{
+
+        background-color: rgb(44, 44, 112);
+        color: white;
+    padding: 20px;
+        text-decoration: none;
+        border-radius: 10px;
+
+
+
+}
+#button:hover{
+
+background-color: black;
+
+}
+footer{
+
+width: 100vw;
+height: 30vh;
+background-color: darkgray;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+@media (max-width: 500px) {
+.upbody {
+flex-direction: column;
+}
+
+}
+
+
+li a:hover{
+
+color: orange;
+
+}
+
+
+   </style>
+</head>
+<body>
+
+<div class="body1"> 
+    <div class="upbody">
+        
+      <h2 class="logo"> website logo</h2>
+    
+    
+        <nav>
+         
+              <li><a href="#">home</a></li>
+              <li><a href="#bd2">product</a></li>
+              <li><a href="#bd3">about</a></li>
+              <li><a href="#bd4">contacts</a></li>
+         </nav>
+      
+
+    </div>
+
+
+
+    <div class="down">
+        <h1>Responsive flexbox templet</h1>
+        <h5>A freebie by Tutorialzine</h5>
+        <a id="btn" href="#">DOWNLOUD THE LINK </a>
+    </div>
+
+</div>
+<div id="bd2" class="body2">
+            <div class="header2">
+                    <h2 id="title2">some of our work </h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente quis excepturi minus voluptatibus aspernatur molestiae quo in? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad soluta voluptas <br> Minima quidem iste deserunt, unde eum maiores nulla, inventore ab delectus nostrum totam dolor illo explicabo laborum veniam!</p>
+                  <hr width="100px" color="blue">
+
+            </div>
+            <div class="photo">
+   
+              <div style="display:inline-block; row-gap: 10px;column-gap: 10px;">
+                <img class="img2" src="assets/img/coast.jpg" width="200px"  height="200">
+   
+                <img class="img2" src="assets/img/island.jpg"width="400px" height="200">
+             </div>
+             <div style="display:inline-block;row-gap:10px ; column-gap: 10px; ">        
+                    <img class="img2" src="assets/img/balloon.jpg" width="400px" height="200px">
+   
+                    <img class="img2" src="assets/img/mountain.jpg" width="200px" height="200px">
+            </div>
+
+         </div>
+
+ </div>
+  <div id="bd3" class="body3">
+    <header>
+    <h2>featuer and services</h2> <br>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente quis excepturi minus voluptatibus aspernatur molestiae quo in? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad soluta voluptas <br> Minima quidem iste deserunt, unde eum maiores nulla, inventore ab delectus nostrum totam dolor illo explicabo laborum veniam!</p>
+        <br>
+  
+ </header>
+ <hr id="hr3" width="100px" color="blue">
+
+        <div class="colo">
+           
+            <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  line-height: 1.6;">photography</h4>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quod minima cumque, voluptate molestias magni. Commodi ratione nisi aspernatur sit ad reprehenderit id rem expedita, non ipsa ipsum .</p> 
+            
+            <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  line-height: 1.6;">web development </h4>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia aliquam quod aspernatur dolorem quas voluptate, tenetur natus possimus optio earum facilis quasi architecto adipisci mollitia nihil id.</p>
+            
+            <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  line-height: 1.6;">content editing </h4>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolorum, ut sapiente veritatis eligendi ullam soluta recusandae sed, asperiores possimus iusto, sint eos culpa placeat. At eum </p>
+        </div>
+
+
+    </div>
+
+    <div id="bd4" class="newsletter">
+        
+        <h2>Join Our Newsletter</h2>
+        <br>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices.</p>
+        <br>
+        <div class="email1">
+            <input type="email" placeholder="Email">
+            
+            <a id="button" href="#"> SUBSCRIBE NOW </a>
+      </div>
+    </div>
+
+    <footer>
+
+            <p> MADE BY TUTORIALZINE. IMAGES COURTESY TO UNSPLASH.<br> NO ATTRIBUTION REQUIRED. YOU CAN REMOVE THIS FOOTER. </p>
+
+
+
+    </footer>
+
+</body>
+</html>
